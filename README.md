@@ -1,4 +1,4 @@
-Tools/Technologies Used:
+Technologies Used:
 
 Java: Core programming language for writing test scripts.
 Maven: Dependency management and build tool.
