@@ -1,5 +1,12 @@
 package com.saucedemo.tests;
 
+/**
+ * LoginPage handles all the interactions and functionalities
+ * related to the login page of the SauceDemo website.
+ * 
+ * @author @baba
+ */
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

@@ -1,5 +1,12 @@
 package com.saucedemo.tests;
 
+/**
+ * LoginTest validates the login functionality and ensures that
+ * the highest-priced item can be added to the cart.
+ * 
+ * @author @baba
+ */
+
 import com.saucedemo.tests.InventoryPage;
 import com.saucedemo.tests.LoginPage;
 import org.junit.jupiter.api.Test;

@@ -1,5 +1,12 @@
 package com.saucedemo.tests;
 
+/**
+ * InventoryPage handles all functionalities of the product listing page,
+ * such as selecting items and adding them to the cart.
+ * 
+ * @author @baba
+ */
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,6 +26,11 @@ public class InventoryPage extends BasePage{
 	    public InventoryPage(WebDriver driver) {
 	        super(driver);
 	    }
+	    
+	    /**
+	     * This method identifies the highest-priced item on the page
+	     * and adds it to the cart.
+	     */
 
 	    public void addHighestPricedItemToCart() {
 	        double maxPrice = 0.0;

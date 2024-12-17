@@ -1,5 +1,12 @@
 package com.saucedemo.tests;
 
+/**
+ * BasePage is the parent class for all pages in the framework.
+ * It contains common functionalities shared across pages.
+ * 
+ * @author @baba
+ */
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.PageFactory;
